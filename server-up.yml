@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Server UP
+      shell: python3 server-up.py
