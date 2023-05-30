@@ -2,4 +2,4 @@
   - hosts: localhost
     tasks:
       - name: Teste Hello
-        shell: echo 'hello'
+        shell: echo 'hello rodolfo'
