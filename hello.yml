@@ -1,1 +1,5 @@
-ola
+---
+  - hosts: localhost
+    tasks:
+      - name: 'Teste Hello'
+      shell: echo 'hello'
