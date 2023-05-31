@@ -1,7 +1,7 @@
 import requests
 import time
 import urllib3
-urllib3.disable_warning()
+# urllib3.disable_warning()
 
 try:
     response = response.get('http://127.0.0.1:5000')
