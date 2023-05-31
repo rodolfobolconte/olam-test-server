@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Server Monitor
+      shell: python3 monitor-schedule.py
