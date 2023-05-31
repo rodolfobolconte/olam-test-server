@@ -1,6 +1,6 @@
 import requests
 import time
-impot urllib3
+import urllib3
 urllib3.disable_warning()
 
 while True:
