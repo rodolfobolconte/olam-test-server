@@ -10,7 +10,7 @@ try:
 except:
     print('--> Server Error')
     headers = {
-        'Authorization': 'Bearer 7tlF7D4aOqf2XWYdAMU7q4EG3pujoL'
+        'Authorization': 'Bearer mvPPNToAjhHhhD4Adljiqj8dZ2TI9h'
     }
-    requests.post('https://150.165.80.94/api/v2/job_templates/12/launch/', headers=headers, verify=False)
+    requests.post('https://192.168.1.15/api/v2/job_templates/12/launch/', headers=headers, verify=False)
     time.sleep(7)
