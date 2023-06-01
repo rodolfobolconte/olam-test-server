@@ -4,7 +4,7 @@ import urllib3
 # urllib3.disable_warning()
 
 try:
-    response = response.get('http://127.0.0.1:5000')
+    response = requests.get('http://127.0.0.1:5000')
     print(response.status_code)
     time.sleep(3)
 except:
